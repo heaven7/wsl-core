@@ -10,5 +10,27 @@ both = ['client','server'];
 
 Package.onUse(function(api) {
     api.versionsFrom('1.1.0.2');
-    api.addFiles('wsl-core.js');
+
+    var packages =
+        [
+            'standard-app-packages',
+            'service-configuration',
+            'multiply:iron-router-progress',
+            'aldeed:collection2',
+            'aldeed:autoform@5.3.1',
+            'aldeed:simple-schema',
+            'mrt:moment',
+            'spiderable',
+            'templating'
+        ];
+
+    api.use(packages);
+    api.imply(packages);
+
+    api.addFiles([
+        'lib/router/config.js',
+        'lib/router/routes.js',
+        'wsl-core.js'
+    ], both);
+
 });
