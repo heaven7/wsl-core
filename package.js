@@ -28,8 +28,7 @@ Package.onUse(function(api) {
     api.imply(packages);
 
     api.addFiles([
-        'lib/router/config.js',
-        'lib/router/routes.js',
+        'lib/both/router.js',
         'wsl-core.js'
     ], both);
 
