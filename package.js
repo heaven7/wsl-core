@@ -21,6 +21,7 @@ Package.onUse(function(api) {
             'aldeed:simple-schema',
             'mrt:moment',
             'spiderable',
+            'coffeescript',
             'templating'
         ];
 
