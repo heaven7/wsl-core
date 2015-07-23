@@ -29,8 +29,11 @@ Package.onUse(function(api) {
     api.imply(packages);
 
     api.addFiles([
-        'lib/both/router.js',
-        'wsl-core.js'
+        'lib/router.js',
+        'lib/schemas.js',
+        'lib/core.js'
     ], both);
+
+    api.export('Schemas');
 
 });
