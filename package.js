@@ -34,6 +34,9 @@ Package.onUse(function(api) {
         'lib/core.js'
     ], both);
 
-    api.export('Schemas');
+    api.export([
+        'Schemas',
+        'WSL'
+    ]);
 
 });
