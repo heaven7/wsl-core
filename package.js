@@ -20,7 +20,12 @@ Package.onUse(function(api) {
             'aldeed:collection2',
             'aldeed:autoform@5.3.1',
             'aldeed:simple-schema',
-//git            'tap:i18n',
+/*
+            'tap:i18n@1.5.1',
+            'reactive-var',
+            'http',
+            'email',
+*/
             'mrt:moment',
             'spiderable',
             'coffeescript',
@@ -35,6 +40,10 @@ Package.onUse(function(api) {
         'lib/schemas.js',
         'lib/core.js'
     ], both);
+
+    api.addFiles([
+        'lib/client/handlebars.js'
+    ], 'client');
 
     api.export([
         'Schemas',
