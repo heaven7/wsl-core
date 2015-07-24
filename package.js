@@ -19,6 +19,7 @@ Package.onUse(function(api) {
             'aldeed:collection2',
             'aldeed:autoform@5.3.1',
             'aldeed:simple-schema',
+//git            'tap:i18n',
             'mrt:moment',
             'spiderable',
             'coffeescript',
