@@ -13,6 +13,7 @@ Package.onUse(function(api) {
 
     var packages =
         [
+            'meteor-platform',
             'standard-app-packages',
             'service-configuration',
             'multiply:iron-router-progress',
