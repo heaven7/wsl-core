@@ -20,12 +20,11 @@ Package.onUse(function(api) {
             'aldeed:collection2',
             'aldeed:autoform@5.3.1',
             'aldeed:simple-schema',
-/*
+            'manuelschoebel:ms-seo@0.4.1',
             'tap:i18n@1.5.1',
             'reactive-var',
             'http',
             'email',
-*/
             'mrt:moment',
             'spiderable',
             'coffeescript',
@@ -42,7 +41,8 @@ Package.onUse(function(api) {
     ], both);
 
     api.addFiles([
-        'lib/client/handlebars.js'
+        'lib/client/handlebars.js',
+        'lib/client/helpers.js'
     ], 'client');
 
     api.export([
