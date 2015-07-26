@@ -43,7 +43,6 @@ Package.onUse(function(api) {
     ]);
 
     api.addFiles([
-        'lib/client/handlebars.js',
         'lib/client/helpers.js'
     ], 'client');
 
