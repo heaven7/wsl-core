@@ -20,13 +20,10 @@ Package.onUse(function(api) {
             'aldeed:collection2',
             'aldeed:autoform@5.3.1',
             'aldeed:simple-schema',
-            'manuelschoebel:ms-seo@0.4.1',
-            'tap:i18n@1.5.1',
             'reactive-var',
             'http',
             'email',
             'mrt:moment',
-            'spiderable',
             'coffeescript',
             'templating'
         ];
