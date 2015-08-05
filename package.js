@@ -20,6 +20,7 @@ Package.onUse(function(api) {
             'aldeed:collection2@2.3.3',
             'aldeed:autoform@5.3.1',
             'aldeed:simple-schema@1.3.3',
+            'matb33:collection-hooks@0.7.5',
             'raix:handlebar-helpers@0.2.3',
             'reactive-var',
             'http',
