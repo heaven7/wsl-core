@@ -40,7 +40,7 @@ Package.onUse(function(api) {
 
     api.addFiles([
        'lib/server/app.js'
-    ]);
+    ], 'server');
 
     api.addFiles([
         'lib/client/helpers.js'
