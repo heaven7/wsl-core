@@ -24,6 +24,7 @@ Package.onUse(function(api) {
             'dburles:mongo-collection-instances@0.3.4',
             'raix:handlebar-helpers@0.2.3',
             'reactive-var',
+            'meteorhacks:npm',
             'http',
             'email',
             'mrt:moment@1.7.0',
