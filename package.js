@@ -17,10 +17,10 @@ Package.onUse(function(api) {
             'standard-app-packages',
             'service-configuration',
             'multiply:iron-router-progress@1.0.1',
+            'matb33:collection-hooks@0.7.14',
             'aldeed:collection2@2.3.3',
             'aldeed:autoform@5.3.1',
             'aldeed:simple-schema@1.3.3',
-            'matb33:collection-hooks@0.7.5',
             'dburles:mongo-collection-instances@0.3.4',
             'raix:handlebar-helpers@0.2.3',
             'reactive-var',
@@ -35,14 +35,15 @@ Package.onUse(function(api) {
     api.use(packages);
     api.imply(packages);
 
-    api.addFiles([
+    api.addFiles([,
+        'lib/core.js',
         'lib/router.js',
         'lib/schemas.js',
-        'lib/core.js'
+        'lib/callbacks.js'
     ], both);
 
     api.addFiles([
-       'lib/server/app.js'
+        'lib/server/app.js'
     ], 'server');
 
     api.addFiles([
