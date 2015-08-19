@@ -22,6 +22,7 @@ Package.onUse(function(api) {
             'aldeed:autoform@5.3.1',
             'aldeed:simple-schema@1.3.3',
             'dburles:mongo-collection-instances@0.3.4',
+            'dburles:collection-helpers@1.0.3',
             'raix:handlebar-helpers@0.2.3',
             'reactive-var',
             'meteorhacks:npm',
