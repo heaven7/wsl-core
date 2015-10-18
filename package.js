@@ -44,7 +44,6 @@ Package.onUse(function(api) {
     ], both);
 
     api.addFiles([
-        'lib/server/app.js'
     ], 'server');
 
     api.addFiles([
