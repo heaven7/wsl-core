@@ -25,6 +25,7 @@ Package.onUse(function(api) {
             'dburles:collection-helpers@1.0.3',
             'raix:handlebar-helpers@0.2.3',
             'reactive-var',
+            'alanning:roles',
             'meteorhacks:npm',
             'http',
             'email',
