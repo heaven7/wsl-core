@@ -26,6 +26,7 @@ Package.onUse(function(api) {
             'raix:handlebar-helpers@0.2.3',
             'reactive-var',
             'alanning:roles',
+            'npm-container',
             'meteorhacks:npm',
             'http',
             'email',
