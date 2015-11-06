@@ -19,7 +19,7 @@ Package.onUse(function(api) {
             'multiply:iron-router-progress@1.0.1',
             'matb33:collection-hooks@0.7.14',
             'aldeed:collection2@2.3.3',
-            'aldeed:autoform@5.3.1',
+            'aldeed:autoform@5.5.0',
             'aldeed:simple-schema@1.3.3',
             'dburles:mongo-collection-instances@0.3.4',
             'dburles:collection-helpers@1.0.3',
@@ -30,7 +30,8 @@ Package.onUse(function(api) {
             'email',
             'mrt:moment@1.7.0',
             'coffeescript',
-            'templating'
+            'templating',
+            'msavin:mongol'
         ];
 
     api.use(packages);
