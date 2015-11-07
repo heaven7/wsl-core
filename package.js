@@ -1,6 +1,6 @@
 Package.describe({
   name: 'heaven7:wsl-core',
-  version: '0.0.1',
+  version: '0.0.2',
   summary: 'Core functionality package',
   git: 'https://github.com/heaven7/wsl-core.git',
   documentation: 'README.md'
@@ -9,7 +9,7 @@ Package.describe({
 both = ['client','server'];
 
 Package.onUse(function(api) {
-    api.versionsFrom('1.1.0.2');
+    api.versionsFrom('1.2');
 
     var packages =
         [
@@ -17,23 +17,22 @@ Package.onUse(function(api) {
             'standard-app-packages',
             'service-configuration',
             'multiply:iron-router-progress@1.0.1',
-            'matb33:collection-hooks@0.7.14',
-            'aldeed:collection2@2.3.3',
-            'aldeed:autoform@5.5.0',
+            'matb33:collection-hooks@0.8.1',
+            'aldeed:collection2@2.5.0',
+            'aldeed:autoform@5.7.1',
             'aldeed:simple-schema@1.3.3',
             'dburles:mongo-collection-instances@0.3.4',
             'dburles:collection-helpers@1.0.3',
             'raix:handlebar-helpers@0.2.3',
             'reactive-var',
             'alanning:roles@1.2.0',
-            'npm-container',
-            'meteorhacks:npm',
+            'meteorhacks:npm@1.5.0',
             'http',
             'email',
-            'mrt:moment@1.7.0',
+            'mrt:moment@2.8.1',
             'coffeescript',
             'templating',
-            'msavin:mongol'
+            'msavin:mongol@1.5.0'
         ];
 
     api.use(packages);
