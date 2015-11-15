@@ -24,6 +24,7 @@ Package.onUse(function(api) {
             'dburles:mongo-collection-instances@0.3.4',
             'dburles:collection-helpers@1.0.3',
             'raix:handlebar-helpers@0.2.3',
+            'cmather:handlebars-server@0.2.0',
             'reactive-var',
             'alanning:roles@1.2.0',
             'meteorhacks:npm@1.5.0',
