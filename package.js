@@ -24,19 +24,19 @@ Package.onUse(function(api) {
             'dburles:mongo-collection-instances@0.3.4',
             'dburles:collection-helpers@1.0.3',
             'raix:handlebar-helpers@0.2.3',
-            'cmather:handlebars-server@0.2.0',
+            'cmather:handlebars-server@2.0.0',
             'reactive-var',
             'alanning:roles@1.2.0',
             'meteorhacks:npm@1.5.0',
-            'meteorhacks:fast-render@1.2.0',
-            'meteorhacks:subs-manager@1.1.0',
+            'meteorhacks:fast-render@2.10.0',
+            'meteorhacks:subs-manager@1.6.2',
             'http',
             'random',
             'email',
             'mrt:moment@2.8.1',
             'coffeescript',
             'templating',
-            'msavin:mongol@1.5.0'
+            'msavin:mongol@1.6.2'
         ];
 
     api.use(packages);
