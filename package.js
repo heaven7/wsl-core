@@ -36,7 +36,9 @@ Package.onUse(function(api) {
             'mrt:moment@2.8.1',
             'coffeescript',
             'templating',
-            'msavin:mongol@1.6.2'
+            'msavin:mongol@1.6.2',
+            'reywood:publish-composite@1.3.6',
+            'yogiben:helpers@0.0.6'
         ];
 
     api.use(packages);
@@ -59,7 +61,8 @@ Package.onUse(function(api) {
 
     api.export([
         'Schemas',
-        'WSL'
+        'WSL',
+        'subs'
     ]);
 
 });
