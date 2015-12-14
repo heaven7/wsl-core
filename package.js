@@ -26,7 +26,6 @@ Package.onUse(function(api) {
             'raix:handlebar-helpers@0.2.3',
             'cmather:handlebars-server@2.0.0',
             'reactive-var',
-            'alanning:roles@1.2.0',
             'meteorhacks:npm@1.5.0',
             'meteorhacks:fast-render@2.10.0',
             'meteorhacks:subs-manager@1.6.2',
