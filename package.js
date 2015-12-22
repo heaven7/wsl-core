@@ -1,6 +1,6 @@
 Package.describe({
   name: 'heaven7:wsl-core',
-  version: '0.0.2',
+  version: '0.0.3',
   summary: 'Core functionality package',
   git: 'https://github.com/heaven7/wsl-core.git',
   documentation: 'README.md'
