@@ -47,7 +47,8 @@ Package.onUse(function(api) {
         'lib/core.js',
         'lib/router.js',
         'lib/schemas.js',
-        'lib/callbacks.js'
+        'lib/callbacks.js',
+        'lib/collections.js'
     ], both);
 
     api.addFiles([
